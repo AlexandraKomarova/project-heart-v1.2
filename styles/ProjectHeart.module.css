@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@300&family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@300&family=Quicksand:wght@700&ßfamily=Comfortaa:wght@300&family=Questrial&family=Alata&family=Hind+Madurai:wght@300&family=Lexend+Deca&family=Righteous&family=ABeeZee&family=Mulish:wght@300&family=Spartan:wght@700&family=Manrope&family=Red+Hat+Display:wght@500&family=Didact+Gothic&family=Chivo:wght@700&family=Hind+Guntur:wght@700&family=Montserrat+Alternates:wght@600&family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@300&family=Comfortaa:wght@500&display=swap');
 
 .projectHeart {
   width: 80%;
   font-family: 'Comfortaa', cursive;
-  font-family: 'Alata', sans-serif;
-  font-family: 'Righteous', cursive;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-family: 'Lexend Deca', sans-serif;
-  /* font-family: 'Quicksand', sans-serif;
-  font-weight: 700; */
   font-size: 90px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0px;
   margin: auto;
   margin-left: 85px;

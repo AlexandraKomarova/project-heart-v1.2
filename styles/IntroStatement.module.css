@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@400&family=Comfortaa:wght@300&family=Questrial&family=Alata&family=Hind+Madurai:wght@300&family=Lexend+Deca&family=Righteous&family=ABeeZee&family=Mulish:wght@300&family=Spartan:wght@700&family=Manrope&family=Red+Hat+Display:wght@500&family=Didact+Gothic&family=Chivo:wght@700&family=Hind+Guntur:wght@700&family=Montserrat+Alternates:wght@600&family=Hammersmith+One&family=Montserrat:wght@300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Quicksand:wght@400&display=swap');
 
 .introStatement {
   font-family: 'Quicksand', sans-serif;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Rubik', sans-serif;
   display: grid;
   grid-template: auto auto / max-content;
   font-size: 30px;
@@ -28,10 +24,10 @@
 @media only screen 
   and (orientation: portrait) {
   .introStatement {
-    width: 80%;
+    width: 87%;
     justify-self: center;
     align-self: center;
-    font-size: 18px;
+    font-size: 20px;
     grid-area: 2/1/3/-1;
   }
 }

@@ -3,7 +3,7 @@
 .nav {
   grid-area: 1/1/2/-1;
   margin: 1vh;
-  width: 80%;
+  width: 85%;
   justify-self: center;
   align-self: center;
   font-family: 'Quicksand', sans-serif;
