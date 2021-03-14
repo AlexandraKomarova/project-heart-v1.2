@@ -14,10 +14,15 @@ import Statement1234Wrapper from '../components/Statement1234Wrapper'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <motion.div 
+    // exit={{ x: -2000, backgroundColor: '#D12E49' }}
+    transition={{duration: 2, backgroundColor: '#D12E49'}}
+    // initial={{ backgroundColor: '#D12E49' }}
+    // animate={{ opacity: 0 }}
+    className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>project heart v1.2</title>
+        <link rel="icon" href="/hearticon.png"/>
       </Head>
       <Heart />
       <BgRed />
@@ -32,6 +37,6 @@ export default function Home() {
         <NavLandscape />
         <Statement1234Wrapper />
       </div>
-    </div>
+    </motion.div>
   )
 }

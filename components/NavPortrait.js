@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { motion } from 'framer-motion'
 import styles from '../styles/NavPortrait.module.css'
 import { aboutVariants, communityVariants } from '../animations/navPortraitAnimation'
@@ -5,12 +6,15 @@ import { aboutVariants, communityVariants } from '../animations/navPortraitAnima
 const NavPortrait = () => {
   return (
     <nav className={styles.nav}>
-      <motion.div 
-      // WHITE ABOUT
-        variants={aboutVariants}
-        initial="hidden"
-        animate="visible"
-      className={styles.whiteAbout}>about</motion.div>
+      <Link href='/about'>
+        <motion.div
+          // WHITE ABOUT
+          variants={aboutVariants}
+          initial="hidden"
+          animate="visible"
+          className={styles.whiteAbout}>about
+        </motion.div>
+      </Link>
       <motion.div
       // WHITE COMMUNITY
         variants={communityVariants}
