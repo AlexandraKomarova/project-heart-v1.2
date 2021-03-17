@@ -16,8 +16,8 @@ import { ContactMenu } from '../components/ContactMenu'
 export default function Home() {
   return (
     <motion.div 
-    exit={{ opacity: 0 }}
-    // transition={{duration: 2, backgroundColor: '#D12E49'}}
+    // exit={{ opacity: 0 }}
+    transition={{backgroundColor: '#D12E49'}}
     // initial={{ backgroundColor: '#D12E49' }}
     // animate={{ opacity: 0 }}
     className={styles.container}>
@@ -29,7 +29,6 @@ export default function Home() {
       <BgRed />
       <BgWhiteRight />
       <BgWhiteBottom />
-      
       <div className={styles.container1}>
         <NavPortrait />
         <IntroStatement />
