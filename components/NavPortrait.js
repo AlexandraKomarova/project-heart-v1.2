@@ -6,23 +6,25 @@ import { aboutVariants, communityVariants } from '../animations/navPortraitAnima
 const NavPortrait = () => {
   return (
     <nav className={styles.nav}>
-      <Link href='/about'>
+      <Link href='/about2'>
         <motion.div
           // WHITE ABOUT
           variants={aboutVariants}
           initial="hidden"
           animate="visible"
-          className={styles.whiteAbout}>about
+          className={styles.whiteAbout}>contact project heart
         </motion.div>
       </Link>
-      <motion.div
-      // WHITE COMMUNITY
-        variants={communityVariants}
-        initial="hidden"
-        animate="visible"
-      className={styles.whiteCommunity}>community</motion.div>
+      
     </nav>
   )
 }
 
 export default NavPortrait
+
+// <motion.div
+//       // WHITE COMMUNITY
+//         variants={communityVariants}
+//         initial="hidden"
+//         animate="visible"
+//       className={styles.whiteCommunity}>community</motion.div>

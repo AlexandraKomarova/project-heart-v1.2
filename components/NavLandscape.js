@@ -6,46 +6,52 @@ import { whiteAboutVariants, redAboutVariants, whiteCommunityVariants, redCommun
 const NavLandscape = () => {
   return (
     <nav className={styles.nav}>
-      <Link href='/about'>
-        <motion.div
-          // WHITE ABOUT
-          variants={whiteAboutVariants}
-          initial="hidden"
-          animate="visible"
-          className={styles.whiteAbout}>about
-        </motion.div>
-      </Link>
-      <Link href='/community'>
-        <motion.div
-        // WHITE COMMUNITY
-          variants={whiteCommunityVariants}
-          initial="hidden"
-          animate="visible"
-          className={styles.whiteCommunity}>community
-        </motion.div>
-      </Link>
+      
       <Link href='/about'>
         <motion.div 
           // RED ABOUT
+        
           variants={redAboutVariants}
           initial="hidden"
           animate="visible"
           whileHover="hover"
-          className={styles.redAbout}>about
+          className={styles.redAbout}>contact project heart
         </motion.div>
       </Link>
-      <Link href='/community'>
-        <motion.div 
-          // RED COMMUNITY
-          variants={redCommunityVariants}
-          initial="hidden"
-          animate="visible"
-          whileHover="hover"
-          className={styles.redCommunity}>community
-        </motion.div>
-      </Link>
+      
     </nav>
   )
 }
 
 export default NavLandscape
+
+// <Link href='/about'>
+//         <motion.div
+//           // WHITE ABOUT
+//           variants={whiteAboutVariants}
+//           initial="hidden"
+//           animate="visible"
+//           className={styles.whiteAbout}>about
+//         </motion.div>
+//       </Link>
+//       <Link href='/community'>
+//         <motion.div
+//         // WHITE COMMUNITY
+//           variants={whiteCommunityVariants}
+//           initial="hidden"
+//           animate="visible"
+//           className={styles.whiteCommunity}>community
+//         </motion.div>
+//       </Link>
+
+
+// <Link href='/community'>
+//         <motion.div 
+//           // RED COMMUNITY
+//           variants={redCommunityVariants}
+//           initial="hidden"
+//           animate="visible"
+//           whileHover="hover"
+//           className={styles.redCommunity}>community
+//         </motion.div>
+//       </Link>

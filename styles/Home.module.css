@@ -20,6 +20,17 @@
   grid-area: 1/2/-1/-1;
   display: grid;
   grid-template: 15vh 65vh / 1fr;
+  position: relative;
+}
+
+.aboutRightPart {
+  width: 40vw;
+  background-color: #D12E49;
+  grid-area: 1/2/-1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
 }
 
 /* PORTRAIT */

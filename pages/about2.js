@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from 'framer-motion'
-import styles from '../styles/About.module.css'
+import styles from '../styles/About2.module.css'
 
 export const testVariants = {
   hidden: {

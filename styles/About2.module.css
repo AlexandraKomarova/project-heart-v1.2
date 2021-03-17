@@ -6,14 +6,15 @@
   font-family: 'Quicksand', sans-serif;
   background-color: #D12E49;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.about, .home {
-  margin: 5vw;
+.about {
+  margin-bottom: 13vh;
 }
 
 .home {
@@ -21,4 +22,5 @@
   border: 1.5px solid ;
   border-radius: 20px;
   padding: 15px;
+  margin-bottom: 15vh;
 }

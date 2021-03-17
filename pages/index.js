@@ -11,23 +11,25 @@ import BlobWrapper from '../components/BlobWrapper'
 import NavLandscape from '../components/NavLandscape'
 import NavPortrait from '../components/NavPortrait'
 import Statement1234Wrapper from '../components/Statement1234Wrapper'
+import { ContactMenu } from '../components/ContactMenu'
 
 export default function Home() {
   return (
     <motion.div 
-    // exit={{ x: -2000, backgroundColor: '#D12E49' }}
-    transition={{duration: 2, backgroundColor: '#D12E49'}}
+    exit={{ opacity: 0 }}
+    // transition={{duration: 2, backgroundColor: '#D12E49'}}
     // initial={{ backgroundColor: '#D12E49' }}
     // animate={{ opacity: 0 }}
     className={styles.container}>
       <Head>
         <title>project heart v1.2</title>
-        <link rel="icon" href="/hearticon.png"/>
+        <link rel="icon" href="/hearticon.png" />
       </Head>
       <Heart />
       <BgRed />
       <BgWhiteRight />
       <BgWhiteBottom />
+      
       <div className={styles.container1}>
         <NavPortrait />
         <IntroStatement />
