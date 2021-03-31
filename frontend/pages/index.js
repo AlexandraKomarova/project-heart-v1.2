@@ -12,7 +12,7 @@ import NavLandscape from '../components/NavLandscape'
 import NavPortrait from '../components/NavPortrait'
 import Statement1234Wrapper from '../components/Statement1234Wrapper'
 import { ContactMenu } from '../components/ContactMenu'
-
+//
 export default function Home() {
   return (
     <motion.div 
