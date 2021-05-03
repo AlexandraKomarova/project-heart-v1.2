@@ -23,7 +23,7 @@ const about = () => {
   return (
     <motion.div className={styles.container} variants={testVariants} initial="hidden"
         animate="visible">
-      <div className={styles.about}>contact the Fairy at: <br/> Hada Nómada <br/> annie.anca@gmail.com</div>
+      <div className={styles.about}>contact the Fairy at: <br/> Ani <br/> ani@projectheart.family</div>
       <Link href='/'><div className={styles.home}>back home</div></Link>
     </motion.div>
   )
