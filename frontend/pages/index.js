@@ -11,7 +11,6 @@ import BlobWrapper from '../components/BlobWrapper'
 import NavLandscape from '../components/NavLandscape'
 import NavPortrait from '../components/NavPortrait'
 import Statement1234Wrapper from '../components/Statement1234Wrapper'
-import { ContactMenu } from '../components/ContactMenu'
 export default function Home() {
   return (
     <motion.div 
@@ -21,7 +20,7 @@ export default function Home() {
     // animate={{ opacity: 0 }}
     className={styles.container}>
       <Head>
-        <title>project heart v1.2</title>
+        <title>project heart</title>
         <link rel="icon" href="/hearticon.png" />
       </Head>
       <Heart />
